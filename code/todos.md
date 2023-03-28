@@ -4,14 +4,15 @@
 - [X] Add dynamic model layer specification
 - [X] Hook config to the code 
 - [ ] Add different initialization of weights
-
-
+- [ ] Add generation of architecture for the model and log it into the WandB
+  
 # PyTorch Solution
 - [X] Add dropout with probability specification for the model 
 - [X] Add dynamic model layer specification
 - [ ] Add validation and test 
 - [ ] Hook config to the code 
 - [ ] Add different initialization of weights
+- [ ] Add generation of architecture for the model and log it into the WandB
 
 
 # Global 
