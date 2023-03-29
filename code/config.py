@@ -15,7 +15,7 @@ config = {
     'loss_pytorch': nn.CrossEntropyLoss(),
     'loss_keras': tf.keras.losses.CategoricalCrossentropy(),
     'hidden_layers': [10],
-    'dropout': 0.2,
+    'dropout_fix': 0.2,
     # Sweep config
     'method': 'random',
     'name': 'sweep',
@@ -33,7 +33,10 @@ config = {
         'lr': {
             'max': 0.01,
             'min': 0.0001
-        }
+        },
+        'dropout': {
+            'values': [0.1, 0.2, 0.3]
+        },
     },
 }
 
